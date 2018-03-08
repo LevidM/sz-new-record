@@ -638,6 +638,7 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
     border-left: 5px solid #eee;
     border-radius: 0 4px 4px 0;
     font-size: 13px;
+    width: 49%;
 }
 
 .note h3 {
@@ -679,7 +680,7 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
     width: 80px;
     height: 80px;
     display: block;
-    float: left;
+    float: right;
     padding-top: 10px;
     padding-left: 15px;
     margin-bottom: 15px;
@@ -701,8 +702,8 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
 
 .dashboard-stat .details {
     position: absolute;
-    right: 15px;
-    padding-right: 15px;
+    left: 15px;
+    padding-left: 15px;
 }
 
 .dashboard-stat.blue .details .number {
@@ -727,9 +728,9 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
 
 .dashboard-stat .details .desc {
     text-align: right;
-    font-size: 16px;
+    font-size: 28px;
     letter-spacing: 0;
-    font-weight: 300;
+    line-height: 100px
 }
 
 .dashboard-stat.blue .more {
@@ -1955,7 +1956,7 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
     margin-bottom: 40px;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     .tpl-left-nav-hover {
         display: none;
         width: 100%;
@@ -1967,4 +1968,4 @@ ul.tpl-dropdown-content li>a.tpl-dropdown-content-message:last-child {
     .tpl-content-wrapper {
         padding-left: 0;
     }
-}
+} */
