@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>深圳企业创新纪录申报系统</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="index">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <link rel="stylesheet" href="assets/css/app.css">  
+    <script src="assets/js/echarts.min.js"></script>
+</head>
+
+<body>
+
+
+    <header class="am-topbar am-topbar-inverse admin-header">
+        <div class="am-topbar-brand">
+            <a href="javascript:;" class="tpl-logo">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+    <div class="am-g am-g-fixed">
+
+<!-- 
+        <div class="tpl-left-nav tpl-left-nav-hover">
+
+            <div class="tpl-left-nav-list">
+                <ul class="tpl-left-nav-menu">
+                    <li class="tpl-left-nav-item">
+                        <a href="index.html" class="nav-link active">
+                            <i class="am-icon-pencil"></i>
+                            <span>用户注册</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+
+            <ol class="am-breadcrumb">
+                <li><a href="index.html" class="am-icon-home">首页</a></li>
+                <li><a href="agreement.html">注册须知</a></li>
+                <li class="am-active">用户注册</li>
+            </ol>            
+
+        <div class="tpl-portlet-components">
+            <div class="portlet-title">
+                <div class="caption font-green bold">
+                    <span class="am-icon-pencil"></span> 用户注册
+                </div>
+            </div>
+            <div class="tpl-block ">
+
+                <div class="am-g tpl-amazeui-form">
+
+
+                    <div class="am-u-sm-12 am-u-md-9">
+                        <form class="am-form am-form-horizontal">
+                            <div class="am-form-group">
+                                <label for="user-name" class="am-u-sm-3 am-form-label">单位名称 /Company</label>
+                                <div class="am-u-sm-9">
+                                    <input type="text" id="user-name" placeholder="请输入单位全称">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name" class="am-u-sm-3 am-form-label">姓名 /Name</label>
+                                <div class="am-u-sm-9">
+                                    <input type="text" id="user-name" placeholder="请输入联系人姓名">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-name" class="am-u-sm-3 am-form-label">职务 /Positions</label>
+                                <div class="am-u-sm-9">
+                                    <input type="text" id="user-name" placeholder="请输入您的职务">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-email" class="am-u-sm-3 am-form-label">邮箱 /Email </label>
+                                <div class="am-u-sm-9">
+                                    <input type="email" id="user-email" placeholder="请输入您的Email">
+                                    <small>该邮箱作为您的登陆账号，请认真填写</small>
+                                </div>
+                            </div>                            
+                            
+                            <div class="am-form-group">
+                                <label for="user-password" class="am-u-sm-3 am-form-label">登陆密码 /Password</label>
+                                <div class="am-u-sm-9">
+                                    <input type="password" id="user-password" placeholder="设定您的登陆密码">
+                                </div>
+
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-password" class="am-u-sm-3 am-form-label">确认密码 /Password</label>
+                                <div class="am-u-sm-9">
+                                <input type="password" id="user-password" placeholder="请再输入一次密码">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-phone" class="am-u-sm-3 am-form-label">手机 / Moblie</label>
+                                <div class="am-u-sm-9">
+                                    <input type="tel" id="user-phone" placeholder="请输入您的手机号码">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-phone" class="am-u-sm-3 am-form-label">电话 / Telephone</label>
+                                <div class="am-u-sm-9">
+                                    <input type="tel" id="user-phone" placeholder="请输入您的电话号码">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-phone" class="am-u-sm-3 am-form-label">传真 / Fax</label>
+                                <div class="am-u-sm-9">
+                                    <input type="tel" id="user-phone" placeholder="请输入您的传真号码">
+                                </div>
+                            </div>
+                            <div class="am-form-group">
+                                <label for="user-QQ" class="am-u-sm-3 am-form-label">QQ</label>
+                                <div class="am-u-sm-9">
+                                    <input type="number" pattern="[0-9]*" id="user-QQ" placeholder="输入你的QQ号码">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <div class="am-u-sm-9 am-u-sm-push-3">
+                                    <button type="button" class="am-btn am-btn-primary">注册</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+        <div class="admin-content-footer">
+            <div class="footer-hd ">
+                <p>
+                    <a href="http://www.fszi.org/" target="blank">深圳工业网</a>
+                    <b>|</b>
+                    <a href="http://www.sztopbrand.com/" target="blank">深圳知名品牌网</a>
+                    <b>|</b>
+                </p>
+            </div>
+            <div class="footer-bd ">
+                <p>
+                    <em>服务热线：82913156</em>
+                    <em>主办单位：深圳工业总会</em>
+                    <em>备案序号：粤ICP备11065159号-5号</em>
+                </p>
+            </div>
+        </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="assets/js/iscroll.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

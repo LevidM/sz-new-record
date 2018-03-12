@@ -4,6 +4,8 @@ html,
 body {
     background: #e9ecf3;
     overflow: inherit;
+    min-width: 980px !important;  
+    max-width: none;
 }
 
 ul,
@@ -13,6 +15,10 @@ li {
     list-style: none;
 }
 
+
+ol,li{
+    list-style:decimal ;
+}
 input {
     border: none;
 }
@@ -28,7 +34,7 @@ a:hover {
 
 .am-breadcrumb {
     padding: 0;
-    margin-top: 10px;
+    margin-top: 2.5em;
 }
 
 .am-topbar-inverse {

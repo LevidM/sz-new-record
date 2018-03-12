@@ -9,11 +9,9 @@
 
 html,
 body {
-  height: 100%;
-  overflow: hidden;
   min-width: 980px !important;  
   max-width: none;
-
+  height: 100%;
 }
 
 ul {
@@ -26,7 +24,6 @@ ul {
 }
 
 .admin-header {
-
   font-size: 1.4rem;
   margin-bottom: 0;
 }
@@ -383,4 +380,25 @@ gallery.html css
 
 .footer-bd em{
   margin-right: 2em;
+}
+
+.am-article{
+  padding: 1em;
+}
+
+.am-article p{
+  font-size: 16px;
+  color: #3e3e3e;
+  text-indent: 2em;
+}
+
+.am-article h4 {
+  font-size: 18px;
+  text-indent: 2em;
+}
+
+.am-article ol li{
+  font-size: 16px;
+  margin-left: 1em;  
+  color: #3e3e3e;
 }
