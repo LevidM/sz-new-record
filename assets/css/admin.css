@@ -402,3 +402,19 @@ gallery.html css
   margin-left: 1em;  
   color: #3e3e3e;
 }
+
+.am-article-title{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.am-article-meta{
+  text-align: center;
+}
+
+.am-article-meta span{
+  font-size: 14px;
+  margin-right: 2em;
+  color: #999;
+}
