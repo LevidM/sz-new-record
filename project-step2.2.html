@@ -1,0 +1,410 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>深圳企业创新纪录申报系统</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="index">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <link rel="stylesheet" href="assets/css/app.css">  
+    <script src="assets/js/echarts.min.js"></script>
+</head>
+
+<body>
+
+
+    <header class="am-topbar am-topbar-inverse admin-header">
+        <div class="am-topbar-brand">
+            <a href="javascript:;" class="tpl-logo">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+        </div>
+
+        <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+            <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list tpl-header-list">
+               
+                <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                    <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                        <span class="am-icon-calendar"></span> 进度 <span class="am-badge tpl-badge-primary am-round">4</span></span>
+                    </a>
+                    <ul class="am-dropdown-content tpl-dropdown-content">
+                        <li class="tpl-dropdown-content-external">
+                            <h3>你有 <span class="tpl-color-primary">4</span> 个任务进度</h3><a href="###">全部</a></li>
+                        <li>
+                            <a href="javascript:;" class="tpl-dropdown-content-progress">
+                                <span class="task">
+                        <span class="desc">Amaze UI 用户中心 v1.2 </span>
+                                <span class="percent">45%</span>
+                                </span>
+                                <span class="progress">
+                        <div class="am-progress tpl-progress am-progress-striped"><div class="am-progress-bar am-progress-bar-success" style="width:45%"></div></div>
+                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="tpl-dropdown-content-progress">
+                                <span class="task">
+                        <span class="desc">新闻内容页 </span>
+                                <span class="percent">30%</span>
+                                </span>
+                                <span class="progress">
+                       <div class="am-progress tpl-progress am-progress-striped"><div class="am-progress-bar am-progress-bar-secondary" style="width:30%"></div></div>
+                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="tpl-dropdown-content-progress">
+                                <span class="task">
+                        <span class="desc">管理中心 </span>
+                                <span class="percent">60%</span>
+                                </span>
+                                <span class="progress">
+                        <div class="am-progress tpl-progress am-progress-striped"><div class="am-progress-bar am-progress-bar-warning" style="width:60%"></div></div>
+                    </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen" class="tpl-header-list-link"><span class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
+
+                <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                    <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                        <span class="am-icon-user"></span> <span class="tpl-header-list-user-nick">用户名</span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li><a href="#"><span class="am-icon-bell-o"></span> 资料</a></li>
+                        <li><a href="#"><span class="am-icon-power-off"></span> 退出</a></li>
+                    </ul>
+                </li>
+                <li><a href="###" class="tpl-header-list-link"><span class="am-icon-sign-out tpl-header-list-ico-out-size"></span></a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <div class="tpl-page-container tpl-page-header-fixed">
+
+
+        <div class="tpl-left-nav tpl-left-nav-hover">
+
+            <div class="tpl-left-nav-list">
+                <ul class="tpl-left-nav-menu">
+                    <li class="tpl-left-nav-item">
+                        <a href="home.html" class="nav-link">
+                            <i class="am-icon-home"></i>
+                            <span>首页</span>
+                        </a>
+                    </li>
+
+                    <li class="tpl-left-nav-item">
+                        <a href="javascript:;" class="nav-link tpl-left-nav-link-list active">
+                            <i class="am-icon-tasks"></i>
+                            <span>项目申报</span>
+                            <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                        </a>
+                        <ul class="tpl-left-nav-sub-menu" style="display: block;">
+                                <li>
+                                    <a href="project-step1.html">
+                                        <i class="am-icon-angle-right"></i>
+                                        <span>步骤1 企业基本资料</span>
+                                        <i class="am-margin-right"></i>
+                                    </a>
+    
+                                    <a href="project-step2.1.html" class="active">
+                                        <i class="am-icon-angle-right"></i>
+                                        <span>步骤2 项目资料</span>
+                                    </a>
+                                    <a href="project-step3.html">
+                                        <i class="am-icon-angle-right"></i>
+                                        <span>步骤3 预览和提交</span>
+                                    </a>
+                                    <a href="project-step4.html">
+                                        <i class="am-icon-angle-right"></i>
+                                        <span>步骤4 导出和打印</span>
+                                    </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="tpl-left-nav-item">
+                        <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-trophy"></i>
+                            <span>企业/企业家奖申报</span>
+                            <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right tpl-left-nav-more-ico-rotate"></i>
+                        </a>
+                        <ul class="tpl-left-nav-sub-menu" style="display: block;">
+                            <li>
+                                <a href="form-amazeui.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>步骤1 选择申报奖项</span>
+                                    <i class="am-icon-star tpl-left-nav-content-ico am-fr am-margin-right"></i>
+                                </a>
+
+                                <a href="form-line.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>步骤2 填写申报资料</span>
+                                </a>
+                                <a href="form-line.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>步骤3 预览和提交</span>
+                                </a>
+                                <a href="form-line.html">
+                                    <i class="am-icon-angle-right"></i>
+                                    <span>步骤4 导出和打印</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="tpl-left-nav-item">
+                        <a href="index.html" class="nav-link tpl-left-nav-link-list">
+                            <i class="am-icon-power-off"></i>
+                            <span>退出</span>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tpl-content-wrapper">
+
+            <ol class="am-breadcrumb">
+                <li><a href="#" class="am-icon-home">首页</a></li>
+                <li class="am-active">项目申报</li>
+            </ol>
+
+            <div class="tpl-portlet-components">
+                    <div class="portlet-title">
+                            <div class="caption font-green bold">
+                                <span class="am-icon-list"></span> 项目资料
+                            </div>
+                        </div>
+                <div class="tpl-block ">
+
+                    <div class="am-g tpl-amazeui-form">
+
+                        <div class="am-u-sm-12">
+                            <form class="am-form am-form-horizontal">
+                                <div class="am-form-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">创新纪录名称</label>
+                                    <div class="am-u-sm-6  am-u-end">
+                                        <input type="text" id="user-text" placeholder="项目名称">
+                                    </div>
+                                </div>
+                                <div class="am-form-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">申报类别</label>
+                                    <div class="am-u-sm-6 am-u-end">
+                                            <select data-am-selected>    
+                                                <option value=""></option>
+                                                <option value="option1">产品研发类</option>
+                                                <option value="option2">生产技术类</option>
+                                                <option value="option3">工艺工法类</option>
+                                                <option value="option4">经营管理类</option>
+                                            </select>
+
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">纪录水平</label>
+                                    <div class="am-u-sm-6 am-u-end">
+                                        <div class="am-radio">
+                                            <label>
+                                                <input type="radio" name="doc-radio-1" value="option1" checked>
+                                                深圳企业创新纪录
+                                            </label>
+                                        </div>
+                                    
+                                        <div class="am-radio">
+                                            <label>
+                                                <input type="radio" name="doc-radio-1" value="option2">
+                                                深圳企业创新（广东）纪录
+                                            </label>
+                                        </div>
+                                    
+                                        <div class="am-radio">
+                                            <label>
+                                                <input type="radio" name="doc-radio-1" value="option2">
+                                                深圳企业创新（中国）纪录
+                                            </label>
+                                        </div>
+                                        <div class="am-radio">
+                                            <label>
+                                                <input type="radio" name="doc-radio-1" value="option2">
+                                                深圳企业创新（国际）纪录
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">推荐协会</label>
+                                    <div class="am-u-sm-6  am-u-end">
+                                        <input type="text" id="user-text" placeholder="协会名称" >
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">协会经办人</label>
+                                    <div class="am-u-sm-2">
+                                        <input type="text" id="user-text" placeholder="经办人姓名"  >
+                                    </div>                                    
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">联系电话</label>
+                                    <div class="am-u-sm-2  am-u-end">
+                                        <input type="text" id="user-text" placeholder="经办人联系电话"  >
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="user-intro" class="am-u-sm-2 am-form-label">拟发布的创新纪录项目简介</label>
+                                    <div class="am-u-sm-10">
+                                        <textarea class="" rows="7" id="user-intro" placeholder="简介请按单位、时间、内容及纪录水平的顺序格式书写，120字以内，可参考下方相应申报类别的编撰模板。"></textarea>
+
+  <section data-am-widget="accordion" class="am-accordion am-accordion-basic" data-am-accordion='{  }'>
+        <dl class="am-accordion-item">
+          <dt class="am-accordion-title">
+                产品研发类创新纪录
+          </dt>
+          <dd class="am-accordion-bd am-collapse">
+            <!-- 规避 Collapase 处理有 padding 的折叠内容计算计算有误问题， 加一个容器 -->
+            <div class="am-accordion-content">
+                <p>某公司于**年**月研发的“中鼎（大温差）盘管蓄冷节能中央空调系统及设备”打破了传统空调末端7℃进水的局限，在能够满足建筑物冷、湿负荷的需求的同时且不需配置独立的除湿系统。属国内同行首创。</p>
+                <p>某公司**年**月成功推出“TUMAX 3D虚拟家装平台”是互联网家居行业首个虚拟现实3D云设计平台。平台只需5分钟可勾画出设计方案，720度全视角呈现方案预览，为业主提供秒级渲染服务，比传统设计软件出图速度快100多倍。开创了互联网+家装行业的创新纪录。</p>
+            </div>
+          </dd>
+        </dl>
+        <dl class="am-accordion-item">
+          <dt class="am-accordion-title">
+                生产技术类创新纪录
+          </dt>
+          <dd class="am-accordion-bd am-collapse">
+            <div class="am-accordion-content">
+                    <p>某公司于**年**月推出“激光切割钨钢薄片技术”，其加工精度达±3微米，切割边缘热影响区小于10微米，成功的解决传统机械加工造成的材料浪费、效率低、丝损大等问题。是国内首家采用激光方式加工此类材料并实现产业化。</p>
+                    <p>某公司于**年独立开发的“新型3D分体式伺服冲压机械手生产线研发”项目, 利用传感器技术、可编程计算机控制器技术、新型交流数字伺服控制技术、PID 变频控制技术、网络技术等先进技术研发出的光机电一体化产品，使 SPM 达到16-25 次，填补了国内该领域的技术空白。</p>
+            </div>
+          </dd>
+        </dl>
+        <dl class="am-accordion-item">
+          <dt class="am-accordion-title">
+                工艺工法类创新纪录
+          </dt>
+          <dd class="am-accordion-bd am-collapse">
+            <div class="am-accordion-content">
+                    <p>某公司于**年研发的“装饰天花的玻璃纤维增强石膏板结构”是一种适于大型艺术建筑装饰装修天花的高级石膏板结构，施工工艺简单且缩短了项目工期，有效地提高了工作效率，灵活性更高，可构成良好的吸声结构，达到隔音、吸音的作用，能够确保产品不会出现龟裂和变形的现象，属国内同行首创。</p>
+                    <p>某公司于**年推出“SPL06PowerTube3000”移动电源打破了传统的单一功能，通过手机蓝牙连接实现防丢、防忘充、防高温等功能，外观小巧，方便携带；内置iPhone6原装接头让充电更健康。荣获2015德国iF设计奖、2015日本优良设计大奖、2015台湾金点设计奖及2016中国设计红星奖。</p>
+          </dd>
+        </dl>
+        <dl class="am-accordion-item">
+          <dt class="am-accordion-title">
+                经营管理类创新纪录
+          </dt>
+          <dd class="am-accordion-bd am-collapse">
+            <div class="am-accordion-content">
+                    <p>某公司**年实现销售收入282151.12万元，利润36878.96万元，净利润31181.85万元，销售收入、利润、净利润连续十四年创国内热缩材料行业和电力电缆附件行业第一。</p>
+                    <p>某公司在全球拥有10000多家合作单位、30000多位合作伙伴，为一系列大型基因组科研计划、国际合作项目和数以万计的科研项目提供了杰出的技术服务，主导或参与发表了CNNS文章超过100篇，全部科研论文600余篇，合作伙伴数量行业第一。</p>
+            </div>
+          </dd>
+        </dl>
+        
+    </section>
+                                    </div>
+                                </div>
+                                <div class="am-form-group">
+                                    <label for="user-intro" class="am-u-sm-2 am-form-label">创新纪录项目介绍</label>
+                                    <div class="am-u-sm-10">
+                                        <textarea class="" rows="7" id="user-intro" placeholder="请具体介绍项目背景、内容、主要指标及运作效益。"></textarea>
+                                    </div>
+                                </div>
+                                <div class="am-form-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">纪录创始人</label>
+                                    <div class="am-u-sm-2 am-u-end">
+                                        <input type="text" id="user-text" placeholder="姓名"  >
+                                    </div> 
+                                </div>
+                                <div class="am-form-group">
+                                    <label for="user-intro" class="am-u-sm-2 am-form-label">企业简介</label>
+                                    <div class="am-u-sm-10">
+                                        <textarea class="" rows="10" id="user-intro" placeholder="500字以内"></textarea>
+                                    </div>
+                                </div>
+                                <div class="am-form-group">
+                                    <label for="user-intro" class="am-u-sm-2 am-form-label">证明材料</label>
+                                    <div class="am-u-sm-8 am-u-end">
+                                        <div class="am-form-group am-form-file">
+                                            <button type="button" class="am-btn am-btn-success">
+                                                <i class="am-icon-cloud-upload"></i> 选择要上传的文件</button>
+                                            <input id="doc-form-file" type="file" multiple>
+                                        </div>
+                                        <div>
+                                            <small>请打包上传专利、软件著作权、科技查新报告、统计部门公告、行业证明及权威媒体报道等文件，需另附纸质材料。</small>
+                                        </div>
+                                        <div id="file-list"></div>
+                                        <script>
+                                        $(function() {
+                                            $('#doc-form-file').on('change', function() {
+                                            var fileNames = '';
+                                            $.each(this.files, function() {
+                                                fileNames += '<span class="am-badge">' + this.name + '</span> ';
+                                            });
+                                            $('#file-list').html(fileNames);
+                                            });
+                                        });
+                                        </script>
+                                    </div>
+
+                                </div>
+                                <hr>
+                                <div class="am-form-group">
+                                    <div class="am-u-sm-9 am-u-sm-push-2">
+                                        <button type="button" class="am-btn am-btn-primary">暂存</button>
+                                        <button type="button" class="am-btn am-btn-danger">保存</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
+
+
+        <div class="admin-content-footer">
+            <div class="footer-hd ">
+                <p>
+                    <a href="http://www.fszi.org/" target="blank">深圳工业网</a>
+                    <b>|</b>
+                    <a href="http://www.sztopbrand.com/" target="blank">深圳知名品牌网</a>
+                    <b>|</b>
+                </p>
+            </div>
+            <div class="footer-bd ">
+                <p>
+                    <em>服务热线：82913156</em>
+                    <em>主办单位：深圳工业总会</em>
+                    <em>备案序号：粤ICP备11065159号-5号</em>
+                </p>
+            </div>
+        </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="assets/js/iscroll.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

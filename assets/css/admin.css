@@ -117,6 +117,8 @@ ul {
 .admin-content-footer {
   font-size: 85%;
   color: #777;
+  margin-top: 3em;
+
 }
 
 .admin-content-list {
@@ -417,4 +419,32 @@ gallery.html css
   font-size: 14px;
   margin-right: 2em;
   color: #999;
+}
+
+
+.title-year{
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+}
+
+.am-input-group-label{
+  font-size: 12px;
+  height: 36px !important;
+  line-height: 35px !important;
+}
+
+.am-dropdown-content{
+  
+}
+
+.am-dropdown-content p{
+  font-size: 13px;
+  color:#666;
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+.am-accordion-title{
+  font-size: 14px;
 }
