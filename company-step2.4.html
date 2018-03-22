@@ -65,6 +65,7 @@
                         </a>
                     </li>
 
+ 
                     <li class="tpl-left-nav-item">
                         <a href="javascript:;" class="nav-link tpl-left-nav-link-list active">
                             <i class="am-icon-tasks"></i>
@@ -73,7 +74,7 @@
                         </a>
                         <ul class="tpl-left-nav-sub-menu" style="display: block;">
                                 <li>
-                                    <a href="project-step1.html" class="active">
+                                    <a href="project-step1.html">
                                         <i class="am-icon-angle-right"></i>
                                         <span>步骤1 企业基本资料</span>
                                         <i class="am-margin-right"></i>
@@ -108,7 +109,7 @@
                                     <i class="am-margin-right"></i>
                                 </a>
 
-                                <a href="company-step2.html">
+                                <a href="company-step2.html" class="active">
                                     <i class="am-icon-angle-right"></i>
                                     <span>步骤2 填写申报资料</span>
                                 </a>
@@ -121,9 +122,6 @@
                                     <span>步骤4 导出和打印</span>
                                 </a>
                             </li>
-                        </ul>
-                    </li>
-
                         </ul>
                     </li>
 
@@ -141,8 +139,9 @@
         <div class="tpl-content-wrapper">
 
             <ol class="am-breadcrumb">
-                <li><a href="#" class="am-icon-home">首页</a></li>
-                <li class="am-active">项目申报</li>
+                <li><a href="home.html" class="am-icon-home">首页</a></li>
+                <li class="company-step1.html">企业/企业家奖申报</li>
+                <li class="am-active">创新贡献杰出人物申报表</li>
             </ol>
 
             <div class="tpl-portlet-components">
@@ -163,88 +162,54 @@
                                         <input type="text" id="user-text" placeholder="********股份有限公司"  disabled>
                                     </div>
                                 </div>
+                               
                                 <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">企业性质</label>
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">被推荐人姓名
+                                        </label>
                                     <div class="am-u-sm-2 ">
-                                        <select data-am-selected>    
-                                            <option value=""></option>
-                                            <option value="option1">国有企业</option>
-                                            <option value="option2">私营企业</option>
-                                            <option value="option3">中外合资</option>
-                                            <option value="option4">多元化股份制</option>
-                                            <option value="option4">其他</option>
-                                        </select>
-                                    </div>
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">所属行业</label>
-                                    <div class="am-u-sm-2 ">
-                                        <select data-am-selected="{maxHeight: 200}">    
-                                            <option value=""></option>
-                                            <option value="option1">建筑装饰</option>
-                                            <option value="option2">信息技术</option>
-                                            <option value="option3">生物医学</option>
-                                            <option value="option4">电子设备</option>
-                                            <option value="option5">珠宝</option>
-                                            <option value="option6">半导体</option>
-                                            <option value="option7">电力电气</option>
-                                            <option value="option8">医疗器械</option>
-                                            <option value="option9">环境环保</option>
-                                            <option value="option10">机器人</option>
-                                            <option value="option11">钟表</option>
-                                            <option value="option12">金融</option>
-                                            <option value="option13">光电</option>
-                                            <option value="option14">物业</option>
-                                            <option value="option15">新材料</option>
-                                            <option value="option16">新能源</option>
-                                            <option value="option17">汽车电子</option>
-                                            <option value="option18">机械</option>
-                                            <option value="option19">AR</option>
-                                            <option value="option20">食品</option>
-                                            <option value="option21">线路板</option>
-                                            <option value="option22">仪器仪表</option>
-                                            <option value="option23">物联网</option>
-                                            <option value="option24">互联网</option>
-                                            <option value="option25">服饰</option>
-                                            <option value="option26">检测认证</option>
-                                            <option value="option27">激光</option>
-                                            <option value="option28">农业</option>
-                                            <option value="option29">橡胶塑料</option>
-                                        </select>
-                                    </div>
-                                    <div class="am-u-sm-2  am-u-end">
-                                        <input type="text" id="user-text" placeholder="其它行业"  >
-                                    </div>
-                                </div>
-
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">主营业务</label>
-                                    <div class="am-u-sm-10  am-u-end">
-                                        <input type="text" id="user-text" placeholder="主营业务"  >
-                                    </div>
-                                </div>
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">法定代表人</label>
-                                    <div class="am-u-sm-2  am-u-end">
-                                        <input type="text" id="user-text" placeholder="法定代表人"  >
-                                    </div>
-                                </div>
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">主要领导</label>
-                                    <div class="am-u-sm-2 ">
-                                        <input type="text" id="user-text" placeholder="主要领导"  >
+                                        <input type="text" id="user-text" placeholder="姓名"  >
                                     </div>                                    
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">性别</label>
+                                    <div class="am-u-sm-2 ">
+                                        <label class="am-radio-inline">
+                                            <input type="radio"  value="" name="docInlineRadio"> 男
+                                          </label>
+                                          <label class="am-radio-inline">
+                                            <input type="radio" name="docInlineRadio"> 女
+                                          </label>
+                                    </div>
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">出生年月</label>
+                                    <div class="am-u-sm-2 am-u-end ">
+                                        <input type="text" id="user-text" placeholder="19**年**月">
+                                    </div>
+                                </div>
+                                <div class="am-form-group">
                                     <label for="user-text" class="am-u-sm-2 am-form-label">职务</label>
+                                    <div class="am-u-sm-2">
+                                        <input type="text" id="user-text" placeholder="被推荐人职务"  >
+                                    </div>                                    
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">学历</label>
+                                    <div class="am-u-sm-2">
+                                        <input type="text" id="user-text" placeholder="被推荐人学 历"  >
+                                    </div>                              
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">技术职称
+                                        </label>
                                     <div class="am-u-sm-2  am-u-end">
-                                        <input type="text" id="user-text" placeholder="主要领导职务"  >
+                                        <input type="text" id="user-text" placeholder="被推荐人技术职称"  >
                                     </div>
                                 </div>
                                 <div class="am-form-group">
                                     <label for="user-text" class="am-u-sm-2 am-form-label">电话</label>
                                     <div class="am-u-sm-2">
-                                        <input type="text" id="user-text" placeholder="主要领导电话"  >
+                                        <input type="text" id="user-text" placeholder="被推荐人电话"  >
                                     </div>                                    
                                     <label for="user-text" class="am-u-sm-2 am-form-label">手机</label>
+                                    <div class="am-u-sm-2">
+                                        <input type="text" id="user-text" placeholder="被推荐人手机"  >
+                                    </div>                              
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">邮箱</label>
                                     <div class="am-u-sm-2  am-u-end">
-                                        <input type="text" id="user-text" placeholder="主要领导手机"  >
+                                        <input type="text" id="user-text" placeholder="被推荐人邮箱"  >
                                     </div>
                                 </div>
 
@@ -255,177 +220,127 @@
                                     </div>
                                 </div>
 
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">邮编</label>
-                                    <div class="am-u-sm-2  am-u-end">
-                                        <input type="text" id="user-text" placeholder="邮编"  >
-                                    </div>
-                                </div>
-
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">网址</label>
-                                    <div class="am-u-sm-10  am-u-end">
-                                        <input type="text" id="user-text" placeholder="网址"  >
-                                    </div>
-                                </div>
-
                                 <hr></hr>
 
                                 <div class="portlet-title">
-                                    <div class="caption font-green bold"><span class="am-icon-list"></span> 经济指标</div>
+                                    <div class="caption font-green bold"><span class="am-icon-list"></span> 2017年企业主要经济指标</div>
                                 </div>
-
                                 <div class="am-form-group">
-                                    <div class="am-u-sm-3 am-u-sm-offset-2 title-year">2016年</div>
-                                    <div class="am-u-sm-3  am-u-end title-year">2017年</div>
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">资产总额</label>
+                                    <div class="am-u-sm-2 am-u-end  am-input-group">
+                                        <input type="text" id="user-text" placeholder=""  >
+                                        <span class="am-input-group-label">万元</span>
+                                    </div>
                                 </div>
+                            
                                 <div class="am-form-group">
                                     <label for="user-text" class="am-u-sm-2 am-form-label">销售收入</label>
-                                    <div class="am-u-sm-3  am-input-group">
+                                    <div class="am-u-sm-2 am-input-group">
                                         <input type="text" id="user-text" placeholder=""  >
                                         <span class="am-input-group-label">万元</span>
                                     </div>
-                                    <div class="am-u-sm-3  am-u-end  am-input-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">同比增减</label>
+                                    <div class="am-u-sm-2 am-u-end am-input-group">
                                         <input type="text" id="user-text" placeholder=""  >
-                                        <span class="am-input-group-label">万元</span>
+                                        <span class="am-input-group-label">%</span>
                                     </div>
                                 </div>
+                            
                                 <div class="am-form-group">
                                     <label for="user-text" class="am-u-sm-2 am-form-label">利润总额</label>
-                                    <div class="am-u-sm-3   am-input-group">
+                                    <div class="am-u-sm-2 am-input-group">
                                         <input type="text" id="user-text" placeholder=""  >
                                         <span class="am-input-group-label">万元</span>
                                     </div>
-                                    <div class="am-u-sm-3  am-u-end  am-input-group">
-                                        <input type="text" id="user-text" placeholder=""  >
-                                        <span class="am-input-group-label">万元</span>
-                                    </div>
-                                </div>
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">净利润</label>
-                                    <div class="am-u-sm-3   am-input-group">
-                                        <input type="text" id="user-text" placeholder=""  >
-                                        <span class="am-input-group-label">万元</span>
-                                    </div>
-                                    <div class="am-u-sm-3  am-u-end  am-input-group">
-                                        <input type="text" id="user-text" placeholder=""  >
-                                        <span class="am-input-group-label">万元</span>
-                                    </div>
-                                </div>
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">净资产收益率</label>
-                                    <div class="am-u-sm-3   am-input-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">同比增减</label>
+                                    <div class="am-u-sm-2 am-input-group">
                                         <input type="text" id="user-text" placeholder=""  >
                                         <span class="am-input-group-label">%</span>
                                     </div>
-                                    <div class="am-u-sm-3  am-u-end  am-input-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">利润率</label>
+                                    <div class="am-u-sm-2 am-input-group">
                                         <input type="text" id="user-text" placeholder=""  >
                                         <span class="am-input-group-label">%</span>
                                     </div>
                                 </div>
-
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">纳税总额</label>
-                                    <div class="am-u-sm-3   am-input-group">
-                                        <input type="text" id="user-text" placeholder=""  >
-                                        <span class="am-input-group-label">万元</span>
-                                    </div>
-                                    <div class="am-u-sm-3  am-u-end  am-input-group">
-                                        <input type="text" id="user-text" placeholder=""  >
-                                        <span class="am-input-group-label">万元</span>
-                                    </div>
-                                </div>
+                            
                                 <div class="am-form-group">
                                     <label for="user-text" class="am-u-sm-2 am-form-label">科研投入</label>
-                                    <div class="am-u-sm-3   am-input-group">
+                                    <div class="am-u-sm-2 am-input-group">
                                         <input type="text" id="user-text" placeholder=""  >
                                         <span class="am-input-group-label">万元</span>
                                     </div>
-                                    <div class="am-u-sm-3  am-u-end  am-input-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">占销售收入</label>
+                                    <div class="am-u-sm-2 am-input-group">
                                         <input type="text" id="user-text" placeholder=""  >
-                                        <span class="am-input-group-label">万元</span>
+                                        <span class="am-input-group-label">%</span>
+                                    </div>
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">同比增减</label>
+                                    <div class="am-u-sm-2 am-input-group">
+                                        <input type="text" id="user-text" placeholder=""  >
+                                        <span class="am-input-group-label">%</span>
                                     </div>
                                 </div>
+                            
                                 <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">研发占销售收入比例</label>
-                                    <div class="am-u-sm-3   am-input-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">2017年专利数量</label>
+                                    <div class="am-u-sm-2 am-input-group">
                                         <input type="text" id="user-text" placeholder=""  >
-                                        <span class="am-input-group-label">%</span>
+                                        <span class="am-input-group-label">项</span>
                                     </div>
-                                    <div class="am-u-sm-3  am-u-end  am-input-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">专利总数</label>
+                                    <div class="am-u-sm-2  am-u-end am-input-group">
+                                        <input type="text" id="user-text" placeholder=""  >
+                                        <span class="am-input-group-label">项</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="am-form-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">新产品</label>
+                                    <div class="am-u-sm-2 am-input-group">
+                                        <input type="text" id="user-text" placeholder=""  >
+                                        <span class="am-input-group-label">项</span>
+                                    </div>
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">新技术</label>
+                                    <div class="am-u-sm-2  am-u-end am-input-group">
+                                        <input type="text" id="user-text" placeholder=""  >
+                                        <span class="am-input-group-label">项</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="am-form-group">
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">科员人员</label>
+                                    <div class="am-u-sm-2 am-input-group">
+                                        <input type="text" id="user-text" placeholder=""  >
+                                        <span class="am-input-group-label">位</span>
+                                    </div>
+                                    <label for="user-text" class="am-u-sm-2 am-form-label">占职工总数比</label>
+                                    <div class="am-u-sm-2  am-u-end am-input-group">
                                         <input type="text" id="user-text" placeholder=""  >
                                         <span class="am-input-group-label">%</span>
                                     </div>
                                 </div>
+                            
+                              
 
                                 <hr></hr>
 
-                                <div class="portlet-title">
-                                    <div class="caption font-green bold"><span class="am-icon-list"></span> 专利情况</div>
+                                <div class="am-form-group">
+                                    <label for="user-intro" class="am-u-sm-2 am-form-label">被推荐人主要工作简历</label>
+                                    <div class="am-u-sm-10">
+                                        <textarea class="" rows="10" id="user-intro" placeholder="（请列出时间、地点、岗位及主要工作内容）"></textarea>
+                                    </div>
                                 </div>
 
                                 <div class="am-form-group">
-                                    <div class="am-u-sm-3 am-u-sm-offset-2 title-year">2016年</div>
-                                    <div class="am-u-sm-3  am-u-end title-year">2017年</div>
-                                </div>
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">自有专利总数<br/></label>
-                                    <div class="am-u-sm-3 am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >  
-                                        <span class="am-input-group-label">项</span>
-                                    </div>
-                                    <div class="am-u-sm-3  am-u-end am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >
-                                        <span class="am-input-group-label">项</span>
+                                    <label for="user-intro" class="am-u-sm-2 am-form-label">被推荐人主要工作创新业绩</label>
+                                    <div class="am-u-sm-10">
+                                        <textarea class="" rows="10" id="user-intro" placeholder="（1000字，可另附页。可提供人物主要获奖证书复印件）"></textarea>
                                     </div>
                                 </div>
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">发明专利总数<br/></label>
-                                    <div class="am-u-sm-3  am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >
-                                        <span class="am-input-group-label">项</span>
-                                    </div>
-                                    <div class="am-u-sm-3  am-u-end am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >
-                                        <span class="am-input-group-label">项</span>
-                                    </div>
-                                </div>
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">实用新型专利总数<br/></label>
-                                    <div class="am-u-sm-3  am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >
-                                        <span class="am-input-group-label">项</span>
-                                    </div>
-                                    <div class="am-u-sm-3  am-u-end am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >
-                                        <span class="am-input-group-label">项</span>
-                                    </div>
-                                </div>
+                        
                                
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">软件著作权<br/></label>
-                                    <div class="am-u-sm-3  am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >
-                                        <span class="am-input-group-label">项</span>
-                                    </div>
-                                    <div class="am-u-sm-3  am-u-end am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >
-                                        <span class="am-input-group-label">项</span>
-                                    </div>
-                                </div>
-                               
-                                <div class="am-form-group">
-                                    <label for="user-text" class="am-u-sm-2 am-form-label">其他<br/></label>
-                                    <div class="am-u-sm-3  am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >
-                                        <span class="am-input-group-label">项</span>
-                                    </div>
-                                    <div class="am-u-sm-3  am-u-end am-input-group">
-                                        <input type="text"  class="am-form-field" placeholder=""  >
-                                        <span class="am-input-group-label">项</span>
-                                    </div>
-                                </div>
-                               
+                                <hr></hr>
 
                                 <div class="am-form-group">
                                     <div class="am-u-sm-9 am-u-sm-push-2">
@@ -443,6 +358,7 @@
             </div>
 
 
+            <div class="am-cf"></div>
 
         <div class="admin-content-footer">
             <div class="footer-hd ">

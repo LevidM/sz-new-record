@@ -29,7 +29,6 @@
 
             <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list tpl-header-list">
                
-
                 <li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen" class="tpl-header-list-link"><span class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
 
                 <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
@@ -88,7 +87,7 @@
                                         <i class="am-icon-angle-right"></i>
                                         <span>步骤3 预览和提交</span>
                                     </a>
-                                    <a href="project-step2.1.html" class="active">
+                                    <a href="project-step4.html">
                                         <i class="am-icon-angle-right"></i>
                                         <span>步骤4 导出和打印</span>
                                     </a>
@@ -103,28 +102,25 @@
                         </a>
                         <ul class="tpl-left-nav-sub-menu" style="display: block;">
                             <li>
-                                <a href="company-step1.html">
+                                <a href="form-amazeui.html">
                                     <i class="am-icon-angle-right"></i>
                                     <span>步骤1 选择申报奖项</span>
                                     <i class="am-margin-right"></i>
                                 </a>
 
-                                <a href="company-step2.html">
+                                <a href="form-line.html">
                                     <i class="am-icon-angle-right"></i>
                                     <span>步骤2 填写申报资料</span>
                                 </a>
-                                <a href="company-step3.html">
+                                <a href="form-line.html">
                                     <i class="am-icon-angle-right"></i>
                                     <span>步骤3 预览和提交</span>
                                 </a>
-                                <a href="company-step4.html">
+                                <a href="form-line.html">
                                     <i class="am-icon-angle-right"></i>
                                     <span>步骤4 导出和打印</span>
                                 </a>
                             </li>
-                        </ul>
-                    </li>
-
                         </ul>
                     </li>
 
@@ -142,80 +138,97 @@
         <div class="tpl-content-wrapper">
 
             <ol class="am-breadcrumb">
-                <li><a href="index.html" class="am-icon-home">首页</a></li>
-                <li class="am-active">项目申报</li>
+                <li><a href="#" class="am-icon-home">首页</a></li>
+                <li class="am-active">用户资料</li>
             </ol>
 
             <div class="tpl-portlet-components">
-                <div class="portlet-title">
-                    <div class="caption font-green bold">
-                        <span class="am-icon-list"></span> 导出和打印
-                    </div>
-                </div>
-
+                    <div class="portlet-title">
+                            <div class="caption font-green bold">
+                                <span class="am-icon-list"></span> 用户资料
+                            </div>
+                        </div>
                 <div class="tpl-block ">
 
-                    <div class="am-g">
-                            <div class="am-u-sm-12">
-                                <form class="am-form">
-                                    <table class="am-table am-table-striped am-table-hover table-main">
-                                        <thead>
-                                            <tr>
-                                                <th class="table-id">ID</th>
-                                                <th class="table-title">项目名称</th>
-                                                <th class="table-type">申报类别</th>
-                                                <th class="table-author am-hide-sm-only">申报状态</th>
-                                                <th class="table-date am-hide-sm-only">提交时间</th>
-                                                <th class="table-set">操作</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td><a href="#">DTMB系统国际化和产业化的关键技术及应用</a></td>
-                                                <td>产品研发类</td>
-                                                <td class="am-hide-sm-only">完成填报</td>
-                                                <td class="am-hide-sm-only">2017年9月4日 7:28:47</td>
-                                                <td>
-                                                    <div class="am-btn-toolbar">
-                                                        <div class="am-btn-group am-btn-group-xs">
-<button class="am-btn am-btn-default am-btn-xs am-hide-sm-only"><span class="am-icon-search"></span> 预览</button>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td><a href="#">DTMB系统国际化和产业化的关键技术及应用</a></td>
-                                                <td>产品研发类</td>
-                                                <td class="am-hide-sm-only">完成填报</td>
-                                                <td class="am-hide-sm-only">2017年9月4日 7:28:47</td>
-                                                <td>
-                                                    <div class="am-btn-toolbar">
-                                                        <div class="am-btn-group am-btn-group-xs">
-<button class="am-btn am-btn-default am-btn-xs am-hide-sm-only" onclick="window.location.href='project-step3.1.html'"><span class="am-icon-search"></span> 预览</button>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
+                    <div class="am-g tpl-amazeui-form">
 
-                                        </tbody>
-                                    </table>
-
-                                    <hr>
-    
-                                </form>
-                            </div>
-    
-                        </div>
+                            <div class="am-u-sm-12 am-u-md-9">
+                                    <form class="am-form am-form-horizontal">
+                                        <div class="am-form-group">
+                                            <label for="user-name" class="am-u-sm-3 am-form-label">单位名称 /Company</label>
+                                            <div class="am-u-sm-9">
+                                                <input type="text" id="user-name" placeholder="请输入单位全称" required/>
+                                            </div>
+                                        </div>
+                                        <div class="am-form-group">
+                                            <label for="user-name" class="am-u-sm-3 am-form-label">姓名 /Name</label>
+                                            <div class="am-u-sm-9">
+                                                <input type="text" id="user-name" placeholder="请输入联系人姓名" required/>
+                                            </div>
+                                        </div>
+                                        <div class="am-form-group">
+                                            <label for="user-name" class="am-u-sm-3 am-form-label">职务 /Positions</label>
+                                            <div class="am-u-sm-9">
+                                                <input type="text" id="user-name" placeholder="请输入您的职务" required/>
+                                            </div>
+                                        </div>
+            
+                                        <div class="am-form-group">
+                                            <label for="user-email" class="am-u-sm-3 am-form-label">邮箱 /Email </label>
+                                            <div class="am-u-sm-9">
+                                                <input type="email" id="user-email" placeholder="请输入您的Email" required/>
+                                                <small>该邮箱作为您的登陆账号，请认真填写</small>
+                                            </div>
+                                        </div>  
+                                        <div class="am-form-group">
+                                            <label for="user-password" class="am-u-sm-3 am-form-label">登陆密码 /Password</label>
+                                            <div class="am-u-sm-9">
+                                                <input type="password"  id="doc-vld-pwd-1-0" minlength="6" required data-foolish-msg="请输入至少6位数字或字母" placeholder="设定您的登陆密码，6位以上数字或字母" required/>
+                                            </div>
+            
+                                        </div>
+                                  
+                                         <div class="am-form-group">
+                                            <label for="user-password" class="am-u-sm-3 am-form-label">确认密码 /Password</label>
+                                            <div class="am-u-sm-9">
+                                            <input type="password" id="user-password" placeholder="请再输入一次密码" required/>
+                                            </div>
+                                        </div>
+            
+                                        <div class="am-form-group">
+                                            <label for="user-phone" class="am-u-sm-3 am-form-label">手机 / Moblie</label>
+                                            <div class="am-u-sm-9">
+                                                <input type="tel" id="user-phone" placeholder="请输入您的手机号码" required/>
+                                            </div>
+                                        </div>
+            
+                                        <div class="am-form-group">
+                                            <label for="user-phone" class="am-u-sm-3 am-form-label">电话 / Telephone</label>
+                                            <div class="am-u-sm-9">
+                                                <input type="tel" id="user-phone" placeholder="请输入您的电话号码" required/>
+                                            </div>
+                                        </div>
+                                        <div class="am-form-group">
+                                            <label for="user-phone" class="am-u-sm-3 am-form-label">传真 / Fax</label>
+                                            <div class="am-u-sm-9">
+                                                <input type="tel" id="user-phone" placeholder="请输入您的传真号码">
+                                            </div>
+                                        </div>
+                                        <div class="am-form-group">
+                                            <label for="user-QQ" class="am-u-sm-3 am-form-label">QQ</label>
+                                            <div class="am-u-sm-9">
+                                                <input type="number" pattern="[0-9]*" id="user-QQ" placeholder="输入你的QQ号码" required/>
+                                            </div>
+                                        </div>
                     </div>
-
-                    <div class="am-cf"></div>
-
                 </div>
+
             </div>
-        </div>
-        <div class="am-cf"></div>
+
+            </div>
+
+
+
         <div class="admin-content-footer">
             <div class="footer-hd ">
                 <p>
